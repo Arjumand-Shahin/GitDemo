@@ -1,0 +1,15 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 71.164 sec <<< FAILURE!
+runScenario(cucumberOptions.TestNGTestRunner)  Time elapsed: 62.582 sec  <<< FAILURE!
+java.lang.AssertionError: expected [No data] but found [Beetroot]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepDefinitions.OfferPageStepDefinition.Validate_product_name_in_offers_page_matches_with_the_landing_page(OfferPageStepDefinition.java:50)
+	at ✽.Validate product name in offers page matches with the landing page(file:///D:/rahulshettyacademy/CucumberAutomation/src/test/java/features/SearchProduct.feature:8)
+
