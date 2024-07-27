@@ -32,5 +32,6 @@ public class Hooks {
 			scenario.attach(fileContent, "image/png", "image");
 		}
 	}
+	
 
 }

@@ -40,6 +40,7 @@ public class LandingPageStepDefinition {
 		Thread.sleep(2000);
 		testContextSetup.landingPageProductName=landingPage.getProductName().split("-")[0].trim();
 		System.out.println(testContextSetup.landingPageProductName+" is the extracted from Home Page");
+		System.out.println("This is the modified code");
 	    
 	}
 	@When("Added {string} items to the selected product to cart")
